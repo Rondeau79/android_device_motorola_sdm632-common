@@ -182,9 +182,6 @@ PRODUCT_PACKAGES += \
     lowi.conf \
     sap.conf
 
-# GMS
-PRODUCT_GMS_CLIENTID_BASE := android-motorola
-
 # Health
 PRODUCT_PACKAGES += \
     android.hardware.health@2.1-impl:64 \
