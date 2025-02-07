@@ -152,6 +152,8 @@ PRODUCT_PACKAGES += \
     FMRadio \
     libfmjni
 
+$(call soong_config_set_bool,libfmjni,no_fm_firmware,true)
+
 # GMS
 ifeq ($(WITH_GMS),true)
 GMS_MAKEFILE=gms_minimal.mk
